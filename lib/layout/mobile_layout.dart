@@ -6,13 +6,11 @@ class MobileLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            PomodoroTimer(),
-            TaskList(),
-          ],
-        ),
+      body: Column(
+        children: [
+          PomodoroTimer(),
+          Expanded(child: TaskList(),),
+        ],
       ),
     );
   }

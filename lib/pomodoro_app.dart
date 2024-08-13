@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pomodoro_timer/widgets/desktop_layout.dart';
-import 'package:pomodoro_timer/widgets/mobile_layout.dart';
-import 'package:pomodoro_timer/widgets/reponsive_layout.dart';
-import 'package:pomodoro_timer/widgets/tablet_layout.dart';
+import 'package:pomodoro_timer/layout/desktop_layout.dart';
+import 'package:pomodoro_timer/layout/mobile_layout.dart';
+import 'package:pomodoro_timer/layout/reponsive_layout.dart';
+import 'package:pomodoro_timer/layout/tablet_layout.dart';
 
 class PomodoroApp extends StatelessWidget {
   @override
