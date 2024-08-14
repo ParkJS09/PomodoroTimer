@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pomodoro_timer/widgets/CircularTimer.dart';
 import 'package:pomodoro_timer/widgets/pomodoro_timer.dart';
 import 'package:pomodoro_timer/widgets/task_list.dart';
 
@@ -8,7 +9,7 @@ class MobileLayout extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          PomodoroTimer(),
+          CircularTimer(),
           Expanded(child: TaskList(),),
         ],
       ),

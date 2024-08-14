@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pomodoro_timer/widgets/CircularTimer.dart';
 import 'package:pomodoro_timer/widgets/pomodoro_timer.dart';
 import 'package:pomodoro_timer/widgets/task_list.dart';
 
@@ -9,11 +10,11 @@ class DesktopLayout extends StatelessWidget {
       body: Row(
         children: [
           Expanded(
-            flex: 2,
-            child: PomodoroTimer(),
+            flex: 1,
+            child: CircularTimer(),
           ),
           Expanded(
-            flex: 3,
+            flex: 2,
             child: TaskList(),
           ),
         ],
