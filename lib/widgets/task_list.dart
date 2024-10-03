@@ -14,7 +14,7 @@ class TaskList extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'Tasks',
+            '할 일 목록',
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           Expanded(

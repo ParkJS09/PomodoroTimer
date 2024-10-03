@@ -7,11 +7,15 @@ class MobileLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          CircularTimer(),
-          Expanded(child: TaskList(),),
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            CircularTimer(),
+            Expanded(
+              child: TaskList(),
+            ),
+          ],
+        ),
       ),
     );
   }
